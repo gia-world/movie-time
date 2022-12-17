@@ -11,7 +11,7 @@ const Layout = ({ children }: Props) => {
   return (
     <S.Layout>
       <Header />
-      <main>{children}</main>
+      <S.main>{children}</S.main>
       <Footer />
     </S.Layout>
   );
